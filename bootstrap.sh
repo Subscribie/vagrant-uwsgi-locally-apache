@@ -17,7 +17,7 @@ mkdir -p /etc/uwsgi
 mv /tmp/etc-emperor.ini /etc/uwsgi/emperor.ini
 
 # uwsgi systemd
-mv /tmp/systemd-uwsgi.service /etc/systemd/uwsgi.service
+mv /tmp/systemd-uwsgi.service /etc/systemd/system/uwsgi.service
 
 a2dissite 000-default.conf
 a2ensite uwsgi
