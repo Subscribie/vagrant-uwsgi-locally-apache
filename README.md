@@ -1,11 +1,14 @@
+# Test uwsgi + apache locally
+
 # Setup
 
-Install vagrant.
+Install vagrant (vagrant is a wrapper around virtualbox)
 
 ```
 git clone <this repo>
 cd <this repo>
 vagrant up
+vagrant ssh # go into machine/vm
 ```
 
 # Connect
