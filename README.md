@@ -12,8 +12,9 @@ vagrant ssh # go into machine/vm
 ```
 
 # Connect
+```
 vagrant ssh
-
+```
 ## Look around
 ```
 systemctl status uwsgi.service # status of uwsgi
